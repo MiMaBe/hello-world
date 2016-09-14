@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		25BCA7861D835FE80074CBF2 /* helloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		25108E391D85D4C500541AE1 /* hello_world.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hello_world.h; sourceTree = "<group>"; };
+		25108E3C1D85D56100541AE1 /* temp_converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = temp_converter.h; sourceTree = "<group>"; };
+		25BCA7861D835FE80074CBF2 /* K&R_Ex.temp_caseinsensitive_rename */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "K&R_Ex.temp_caseinsensitive_rename"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BCA7891D835FE80074CBF2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		25C2B1FB1D89A4BF004427AF /* IO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IO.h; path = ../IO.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		25BCA77D1D835FE80074CBF2 = {
 			isa = PBXGroup;
 			children = (
-				25BCA7881D835FE80074CBF2 /* helloWorld */,
+				25BCA7881D835FE80074CBF2 /* K&R_Ex */,
 				25BCA7871D835FE80074CBF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,16 +52,20 @@
 		25BCA7871D835FE80074CBF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25BCA7861D835FE80074CBF2 /* helloWorld */,
+				25BCA7861D835FE80074CBF2 /* K&R_Ex.temp_caseinsensitive_rename */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25BCA7881D835FE80074CBF2 /* helloWorld */ = {
+		25BCA7881D835FE80074CBF2 /* K&R_Ex */ = {
 			isa = PBXGroup;
 			children = (
+				25C2B1FB1D89A4BF004427AF /* IO.h */,
 				25BCA7891D835FE80074CBF2 /* main.c */,
+				25108E3C1D85D56100541AE1 /* temp_converter.h */,
+				25108E391D85D4C500541AE1 /* hello_world.h */,
 			);
+			name = "K&R_Ex";
 			path = helloWorld;
 			sourceTree = "<group>";
 		};
@@ -79,7 +86,7 @@
 			);
 			name = helloWorld;
 			productName = helloWorld;
-			productReference = 25BCA7861D835FE80074CBF2 /* helloWorld */;
+			productReference = 25BCA7861D835FE80074CBF2 /* K&R_Ex.temp_caseinsensitive_rename */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25BCA7811D835FE80074CBF2 /* Build configuration list for PBXProject "helloWorld" */;
+			buildConfigurationList = 25BCA7811D835FE80074CBF2 /* Build configuration list for PBXProject "K&R_Ex" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,21 +216,21 @@
 		25BCA78E1D835FE80074CBF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "K&R_Ex.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
 		25BCA78F1D835FE80074CBF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "K&R_Ex.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25BCA7811D835FE80074CBF2 /* Build configuration list for PBXProject "helloWorld" */ = {
+		25BCA7811D835FE80074CBF2 /* Build configuration list for PBXProject "K&R_Ex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25BCA78B1D835FE80074CBF2 /* Debug */,
@@ -239,6 +246,7 @@
 				25BCA78F1D835FE80074CBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,12 @@
 //
 
 #include <stdio.h>
+#include "temp_converter.h"
+#include "IO.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    //printf("Which example would you like to run?\n");
+    //temp_converter();
+    getChar();
     return 0;
 }
